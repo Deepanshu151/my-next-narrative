@@ -6,7 +6,7 @@ const ProjectsSection = () => {
       title: 'Real-Time Chat Application',
       description: 'A responsive chat application with real-time messaging using WebSockets. Features user authentication, group chats, and persistent storage.',
       tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io'],
-      github: '#',
+      github: 'https://github.com/Deepanshu151/Fullstack-Real-Time-Chat-Application',
       live: '#',
       category: 'Full-Stack',
       status: 'Completed',
@@ -36,7 +36,7 @@ const ProjectsSection = () => {
       title: 'Hand Gesture Cursor Control',
       description: 'Enhanced hand tracking module for cursor control using computer vision. Eliminates the need for physical mouse interaction.',
       tech: ['Python', 'OpenCV', 'MediaPipe', 'TensorFlow'],
-      github: '#',
+      github: 'https://github.com/Deepanshu151/Cursor-movement-on-Hand-gestures-',
       live: '#',
       category: 'AI/ML',
       status: 'In Progress',
@@ -66,8 +66,8 @@ const ProjectsSection = () => {
       title: 'Portfolio Website',
       description: 'Personal portfolio website built with modern web technologies, featuring dark theme, animations, and responsive design.',
       tech: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-      github: '#',
-      live: '#',
+      github: 'https://github.com/Deepanshu151/my-next-narrative',
+      live: 'http://deepanshucreates.vercel.app',
       category: 'Frontend',
       status: 'Completed',
       features: [
@@ -234,7 +234,7 @@ const ProjectsSection = () => {
             Want to see more of my work or collaborate on a project?
           </p>
           <a
-            href="https://github.com"
+            href="https://github.com/Deepanshu151"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 px-8 py-3 bg-gradient-primary 

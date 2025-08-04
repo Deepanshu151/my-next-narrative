@@ -49,13 +49,13 @@ const HeroSection = () => {
     {
       name: 'GitHub',
       icon: FiGithub,
-      url: 'https://github.com',
+      url: 'https://github.com/Deepanshu151',
       color: 'hover:text-gray-300'
     },
     {
       name: 'LinkedIn',
       icon: FiLinkedin,
-      url: 'https://linkedin.com/in',
+      url: 'https://www.linkedin.com/in/deepanshu-gautam-6743b82b3/',
       color: 'hover:text-blue-400'
     },
     {
@@ -67,7 +67,7 @@ const HeroSection = () => {
     {
       name: 'LeetCode',
       icon: FiExternalLink,
-      url: 'https://leetcode.com',
+      url: 'https://leetcode.com/u/Tc2obL3ObN/',
       color: 'hover:text-yellow-400'
     }
   ];

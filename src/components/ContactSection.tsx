@@ -62,13 +62,13 @@ const ContactSection = () => {
     {
       icon: FiGithub,
       label: 'GitHub',
-      href: 'https://github.com',
+      href: 'https://github.com/Deepanshu151',
       color: 'hover:text-gray-300'
     },
     {
       icon: FiLinkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in',
+      href: 'https://www.linkedin.com/in/deepanshu-gautam-6743b82b3/',
       color: 'hover:text-blue-400'
     }
   ];
@@ -254,7 +254,7 @@ const ContactSection = () => {
         {/* Footer */}
         <div className="mt-20 pt-8 border-t border-border text-center">
           <p className="text-text-secondary">
-            © 2024 Deepanshu. Built with ❤️ using React & TypeScript
+            © 2024 Deepanshu.
           </p>
         </div>
       </div>

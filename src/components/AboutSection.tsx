@@ -2,10 +2,10 @@ import { FiUser, FiBookOpen, FiTarget, FiHeart } from 'react-icons/fi';
 
 const AboutSection = () => {
   const stats = [
-    { label: 'Years of Study', value: '3+', icon: FiBookOpen },
-    { label: 'Projects Completed', value: '15+', icon: FiTarget },
+    { label: 'Years of Experience', value: '0+', icon: FiBookOpen },
+    { label: 'Projects Completed', value: '5+', icon: FiTarget },
     { label: 'Technologies', value: '20+', icon: FiUser },
-    { label: 'Problem Solving', value: '500+', icon: FiHeart },
+    { label: 'Problem Solving', value: '200+', icon: FiHeart },
   ];
 
   return (
