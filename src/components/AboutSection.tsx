@@ -2,10 +2,10 @@ import { FiUser, FiBookOpen, FiTarget, FiHeart } from 'react-icons/fi';
 
 const AboutSection = () => {
   const stats = [
-    { label: 'Years of Experience', value: '0+', icon: FiBookOpen },
-    { label: 'Projects Completed', value: '5+', icon: FiTarget },
-    { label: 'Technologies', value: '20+', icon: FiUser },
-    { label: 'Problem Solving', value: '200+', icon: FiHeart },
+    { label: 'CGPA', value: '7.1', icon: FiBookOpen },
+    { label: 'Projects Completed', value: '3+', icon: FiTarget },
+    { label: 'Technologies', value: '15+', icon: FiUser },
+    { label: 'HackerRank Stars', value: '5⭐', icon: FiHeart },
   ];
 
   return (
@@ -25,22 +25,25 @@ const AboutSection = () => {
           <div className="space-y-6 animate-slide-in-left">
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-primary">
-                Hello! I'm Deepanshu
+                Hello! I'm Deepanshu Gautam
               </h3>
               <p className="text-text-secondary leading-relaxed">
-                I'm an aspiring Software Developer and B.Tech Computer Science student with a strong 
-                passion for creating innovative solutions. My journey in technology has been driven by 
-                curiosity and a desire to solve real-world problems through code.
+                I'm an aspiring Software Developer and B.Tech Computer Science student at Maharana Institute 
+                of Professional Studies, Kanpur. With a strong passion for creating innovative solutions, 
+                my journey in technology has been driven by curiosity and a desire to solve real-world 
+                problems through code.
               </p>
               <p className="text-text-secondary leading-relaxed">
                 I specialize in full-stack development with expertise in Python, JavaScript, React, 
-                and modern web technologies. I'm particularly interested in AI-powered applications, 
-                cloud computing, and building scalable systems that make a difference.
+                Node.js, and modern web technologies. Passionate about data structures, algorithms, 
+                AI-powered applications, REST APIs, Machine Learning and building scalable web applications 
+                that make a difference.
               </p>
               <p className="text-text-secondary leading-relaxed">
                 When I'm not coding, you can find me exploring new technologies, participating in 
-                hackathons, or contributing to open-source projects. I believe in continuous learning 
-                and staying updated with the latest industry trends.
+                hackathons like Smart India Hackathon, contributing to open-source projects, managing 
+                social media for tech communities, or volunteering at events like Google DevFest. 
+                I believe in continuous learning and staying updated with industry trends.
               </p>
             </div>
 

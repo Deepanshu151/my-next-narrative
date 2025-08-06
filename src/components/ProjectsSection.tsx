@@ -1,13 +1,14 @@
+import { useState } from 'react';
 import { FiGithub, FiExternalLink, FiCode, FiUsers, FiClock } from 'react-icons/fi';
 
 const ProjectsSection = () => {
   const projects = [
     {
       title: 'Real-Time Chat Application',
-      description: 'A responsive chat application with real-time messaging using WebSockets. Features user authentication, group chats, and persistent storage.',
+      description: 'A responsive chat application with real-time messaging using WebSockets. Features user authentication, group chats, and persistent storage with dynamic front-end components.',
       tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io'],
       github: 'https://github.com/Deepanshu151/Fullstack-Real-Time-Chat-Application',
-      live: '#',
+      live: 'https://fullstack-real-time-chat-application.vercel.app',
       category: 'Full-Stack',
       status: 'Completed',
       features: [
@@ -19,10 +20,10 @@ const ProjectsSection = () => {
     },
     {
       title: 'SciAstra-Inspired Website',
-      description: 'A visually appealing 3D website inspired by SciAstra, featuring smooth animations, interactive UI, and well-structured course content.',
+      description: 'A visually appealing 3D website inspired by SciAstra, featuring smooth animations, interactive UI, and well-structured course content with enrollment button.',
       tech: ['HTML', 'CSS', 'JavaScript', 'Three.js'],
-      github: '#',
-      live: '#',
+      github: 'https://github.com/Deepanshu151/SciAstra-inspired-website',
+      live: 'https://deepanshu151.github.io/SciAstra-inspired-website/',
       category: 'Frontend',
       status: 'Completed',
       features: [
@@ -34,10 +35,10 @@ const ProjectsSection = () => {
     },
     {
       title: 'Hand Gesture Cursor Control',
-      description: 'Enhanced hand tracking module for cursor control using computer vision. Eliminates the need for physical mouse interaction.',
+      description: 'Enhanced hand tracking module for cursor control using computer vision with MediaPipe Framework and OpenCV for real-time gesture recognition through hand gestures, eliminating the need for physical mouse.',
       tech: ['Python', 'OpenCV', 'MediaPipe', 'TensorFlow'],
       github: 'https://github.com/Deepanshu151/Cursor-movement-on-Hand-gestures-',
-      live: '#',
+      live: 'https://github.com/Deepanshu151/Cursor-movement-on-Hand-gestures-',
       category: 'AI/ML',
       status: 'In Progress',
       features: [
@@ -249,8 +250,5 @@ const ProjectsSection = () => {
     </section>
   );
 };
-
-// Import useState at the top
-import { useState } from 'react';
 
 export default ProjectsSection;
