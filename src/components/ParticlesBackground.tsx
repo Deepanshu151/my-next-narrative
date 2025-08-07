@@ -18,53 +18,47 @@ const ParticlesBackground = () => {
         window.particlesJS('particles-js', {
           particles: {
             number: {
-              value: 50,
+              value: 120,
               density: {
                 enable: true,
                 value_area: 1000
               }
             },
             color: {
-              value: '#ffffff'
+              value: "#00ffc3"
             },
             shape: {
-              type: 'circle'
+              type: "circle"
             },
             opacity: {
-              value: 0.3,
-              random: true,
-              anim: {
-                enable: true,
-                speed: 0.5,
-                opacity_min: 0.1,
-                sync: false
-              }
+              value: 0.6,
+              random: false
             },
             size: {
-              value: 2,
-              random: true,
-              anim: {
-                enable: false
-              }
+              value: 3,
+              random: true
             },
             line_linked: {
-              enable: false
+              enable: true,
+              distance: 150,
+              color: "ff5500",
+              opacity: 0.4,
+              width: 1
             },
             move: {
               enable: true,
-              speed: 0.5,
-              direction: 'none',
-              random: true,
+              speed: 2,
+              direction: "none",
               straight: false,
-              out_mode: 'out',
-              bounce: false
+              out_mode: "out"
             }
           },
           interactivity: {
-            detect_on: 'canvas',
+            detect_on: "canvas",
             events: {
               onhover: {
-                enable: false
+                enable: true,
+                mode: "repulse"
               },
               onclick: {
                 enable: false
