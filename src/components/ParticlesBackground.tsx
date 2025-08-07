@@ -18,102 +18,58 @@ const ParticlesBackground = () => {
         window.particlesJS('particles-js', {
           particles: {
             number: {
-              value: 120,
+              value: 50,
               density: {
                 enable: true,
-                value_area: 800
+                value_area: 1000
               }
             },
             color: {
-              value: ['#22c55e', '#10b981', '#059669', '#047857']
+              value: '#ffffff'
             },
             shape: {
-              type: 'circle',
-              stroke: {
-                width: 0,
-                color: '#000000'
-              }
+              type: 'circle'
             },
             opacity: {
-              value: 0.6,
+              value: 0.3,
               random: true,
               anim: {
                 enable: true,
-                speed: 1,
+                speed: 0.5,
                 opacity_min: 0.1,
                 sync: false
               }
             },
             size: {
-              value: 4,
+              value: 2,
               random: true,
               anim: {
-                enable: true,
-                speed: 2,
-                size_min: 0.5,
-                sync: false
+                enable: false
               }
             },
             line_linked: {
-              enable: true,
-              distance: 180,
-              color: '#22c55e',
-              opacity: 0.6,
-              width: 1.5
+              enable: false
             },
             move: {
               enable: true,
-              speed: 3,
+              speed: 0.5,
               direction: 'none',
               random: true,
               straight: false,
-              out_mode: 'bounce',
-              bounce: true,
-              attract: {
-                enable: true,
-                rotateX: 600,
-                rotateY: 600
-              }
+              out_mode: 'out',
+              bounce: false
             }
           },
           interactivity: {
             detect_on: 'canvas',
             events: {
               onhover: {
-                enable: true,
-                mode: ['grab', 'bubble']
+                enable: false
               },
               onclick: {
-                enable: true,
-                mode: 'push'
+                enable: false
               },
               resize: true
-            },
-            modes: {
-              grab: {
-                distance: 300,
-                line_linked: {
-                  opacity: 1,
-                  color: '#22c55e'
-                }
-              },
-              bubble: {
-                distance: 250,
-                size: 8,
-                duration: 2,
-                opacity: 1,
-                speed: 3
-              },
-              repulse: {
-                distance: 150,
-                duration: 0.4
-              },
-              push: {
-                particles_nb: 6
-              },
-              remove: {
-                particles_nb: 2
-              }
             }
           },
           retina_detect: true
