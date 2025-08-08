@@ -2,7 +2,7 @@ import { FiUser, FiBookOpen, FiTarget, FiHeart } from 'react-icons/fi';
 
 const AboutSection = () => {
   const stats = [
-    { label: 'CGPA', value: '7.1', icon: FiBookOpen },
+    { label: 'CGPA', value: '7.5', icon: FiBookOpen },
     { label: 'Projects Completed', value: '3+', icon: FiTarget },
     { label: 'Technologies', value: '15+', icon: FiUser },
     { label: 'HackerRank Stars', value: '5⭐', icon: FiHeart },

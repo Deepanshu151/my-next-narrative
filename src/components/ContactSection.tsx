@@ -169,7 +169,7 @@ const ContactSection = () => {
                     className="w-full px-4 py-3 bg-card border border-border rounded-lg 
                              focus:ring-2 focus:ring-primary focus:border-transparent 
                              transition-all duration-300 text-foreground"
-                    placeholder="John Doe"
+                    placeholder="Enter Your Name"
                   />
                 </div>
                 <div>
@@ -186,7 +186,7 @@ const ContactSection = () => {
                     className="w-full px-4 py-3 bg-card border border-border rounded-lg 
                              focus:ring-2 focus:ring-primary focus:border-transparent 
                              transition-all duration-300 text-foreground"
-                    placeholder="john@example.com"
+                    placeholder="name@example.com"
                   />
                 </div>
               </div>
