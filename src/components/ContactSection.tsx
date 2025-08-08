@@ -1,38 +1,42 @@
 import { useState } from 'react';
 import { FiMail, FiPhone, FiMapPin, FiGithub, FiLinkedin, FiSend } from 'react-icons/fi';
 import { useToast } from '@/hooks/use-toast';
+import emailjs from 'emailjs-com';
 
-const ContactSection = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const { toast } = useToast();
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
+    emailjs.send(
+      'service_vuah11d', // from EmailJS
+      'template_fhswomb', // from EmailJS
+      formData,
+      'DcjXT2cv5Lz6Qoghp' // from EmailJS
+    ).then(() => {
       toast({
         title: "Message Sent!",
         description: "Thank you for reaching out. I'll get back to you soon.",
       });
       setFormData({ name: '', email: '', subject: '', message: '' });
       setIsSubmitting(false);
-    }, 1000);
+    }).catch((error) => {
+      toast({
+        title: "Error",
+        description: "Something went wrong. Please try again later.",
+        variant: "destructive"
+      });
+      console.error(error);
+      setIsSubmitting(false);
+    });
   };
+
 
   const contactInfo = [
     {
