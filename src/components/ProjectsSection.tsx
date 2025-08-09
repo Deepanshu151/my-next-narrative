@@ -10,7 +10,7 @@ const ProjectsSection = () => {
       github: 'https://github.com/Deepanshu151/Fullstack-Real-Time-Chat-Application',
       live: 'https://fullstack-real-time-chat-application.vercel.app',
       category: 'Full-Stack',
-      status: 'Completed',
+      status: 'In progress',
       features: [
         'Real-time messaging with WebSocket',
         'User authentication & authorization',
@@ -39,8 +39,8 @@ const ProjectsSection = () => {
       tech: ['Python', 'OpenCV', 'MediaPipe', 'TensorFlow'],
       github: 'https://github.com/Deepanshu151/Cursor-movement-on-Hand-gestures-',
       live: 'https://github.com/Deepanshu151/Cursor-movement-on-Hand-gestures-',
-      category: 'AI/ML',
-      status: 'In Progress',
+      category: 'Python',
+      status: 'Completed',
       features: [
         'Real-time gesture recognition',
         'Computer vision tracking',
@@ -55,7 +55,7 @@ const ProjectsSection = () => {
       github: '#',
       live: '#',
       category: 'AI/ML',
-      status: 'Completed',
+      status: 'In progress',
       features: [
         'Automated data extraction',
         'ML-based content analysis',
