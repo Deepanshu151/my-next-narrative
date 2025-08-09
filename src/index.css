@@ -62,22 +62,19 @@
     background: hsl(var(--hero-bg));
   }
 
-  /* Scrollbar Styling */
+  /* Hide scrollbar completely */
   ::-webkit-scrollbar {
-    width: 8px;
+    display: none;
   }
 
-  ::-webkit-scrollbar-track {
-    background: hsl(var(--muted));
+  /* Hide scrollbar for Firefox */
+  html {
+    scrollbar-width: none;
   }
 
-  ::-webkit-scrollbar-thumb {
-    background: hsl(var(--primary));
-    border-radius: 4px;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: hsl(var(--primary-glow));
+  /* Hide scrollbar for IE/Edge */
+  body {
+    -ms-overflow-style: none;
   }
 }
 
