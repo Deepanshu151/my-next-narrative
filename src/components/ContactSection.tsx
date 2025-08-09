@@ -264,6 +264,6 @@ const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaE
       </div>
     </section>
   );
-
+};
 
 export default ContactSection;
