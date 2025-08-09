@@ -61,7 +61,7 @@ const ParticlesBackground = () => {
                 mode: "repulse"
               },
               onclick: {
-                enable: false
+                enable: true
               },
               resize: true
             }
