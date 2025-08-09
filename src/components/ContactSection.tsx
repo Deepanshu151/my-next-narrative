@@ -3,7 +3,17 @@ import { FiMail, FiPhone, FiMapPin, FiGithub, FiLinkedin, FiSend } from 'react-i
 import { useToast } from '@/hooks/use-toast';
 import emailjs from 'emailjs-com';
 
-const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+const ContactSection = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const { toast } = useToast();
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
@@ -264,6 +274,6 @@ const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaE
       </div>
     </section>
   );
-
+};
 
 export default ContactSection;
